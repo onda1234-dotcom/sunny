@@ -1,0 +1,196 @@
+:root{
+    --ff-primary: Hebo, sans-serif;
+    --ff-secondary: Bungee, cursive;
+    --ff-accent: Bungee shade, cursive;
+    
+}
+
+*{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+img,
+picture{
+    max-width:100%;
+    display:block;
+}
+
+body{
+    font-family: system-ui;
+}
+.container{
+      display: grid;
+      grid-template-columns: repeat(auto-fit,minmax(25rem, 1fr));
+  
+}
+
+
+/* .............................. content section ..............................*/
+.content_one{
+    margin-left:5em;
+    margin-top: 5em;
+   
+}
+
+.content_two{
+    margin-left:5em;
+    margin-top: 5em; 
+}
+
+
+/* .............................. head section ..............................*/
+
+h2{
+    font-size: 2.5rem;
+    max-width: 50%;
+ 
+}
+
+h3{
+    text-align: center;
+    position: relative; 
+    top:-7em;
+}
+
+.head{
+    max-width: 70%; 
+}
+
+
+/* .............................. paragraph section ..............................*/
+
+
+.para_one{
+
+    max-width: 70%;
+    margin-top: 1em;
+}
+
+p a{
+    color:red;
+    font-family:fantasy;
+
+}
+
+p a:hover{
+    color: purple;
+}
+
+
+
+.content_three p{
+    max-width: 70%;
+    text-align: center;
+    margin-left: 5em;
+    position: relative; 
+    top:-7em;
+}
+
+.content_four p{
+    max-width: 70%;
+    text-align: center;
+    margin-left: 5em;
+    position: relative; 
+    top:-7em;
+}
+
+/* .............................. img section ..............................*/
+.second_img{
+    align-self: flex-start;
+    width:100%;
+    aspect-ratio: 1/1;
+    object-fit:cover;
+}
+
+.third_img{
+    align-self: flex-start;
+    width:100%;
+    aspect-ratio: 1/1;
+    object-fit:cover;
+}
+
+.fouth_img{
+    align-self: flex-start;
+    width:100%;
+ 
+}
+
+.jennie{
+    border-radius: 50%;
+    width:30%;
+}
+
+.thomas{
+    border-radius: 50%;
+    width:30%;
+}
+
+.emily{
+    border-radius: 50%;
+    width:30%;
+}
+.review{
+    margin-left: 10em;
+}
+
+
+.review p{
+    font-size: 0.9rem;
+    margin-left: -3em;
+    max-width: 80%;
+}
+
+
+
+
+.group{
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(25rem, 1fr ));
+    margin-top: 3em;
+
+}
+
+.footer{
+    text-align: center;
+    background-color: aquamarine;
+    padding: 2em;
+  
+}
+
+
+@media(max-width :800px){
+    .content_one{
+        margin-left:1em;
+        margin-top: 1em;
+       
+    }
+    
+    .content_two{
+        margin-left:1em;
+        margin-top: 1em;
+      
+    }
+
+    h2{
+        font-size: 2.5rem;
+        max-width: 100%;
+     
+    } 
+
+    .head{
+        max-width: 100%; 
+    }
+    
+    .para_one{
+        max-width: 100%;
+    }
+}
